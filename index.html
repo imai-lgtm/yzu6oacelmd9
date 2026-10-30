@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Start!潜入｜サンプル製缶（架空）</title>
+<meta name="description" content="先輩の職場に、ゲームで先に潜入。現場ことばカードを6枚集めて、本物の見学へ。（架空の会社のサンプル）">
+<link rel="preload" href="img/p_hero.webp" as="image">
+<link rel="preload" href="fonts/ss-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ss-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- 線アイコン（stroke 1.75） -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M4.5 12h15M13.5 6l6 6-6 6"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9.5 6l6 6-6 6"/></symbol>
+    <symbol id="i-vol" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9.2a4 4 0 0 1 0 5.6M18.2 6.6a7.6 7.6 0 0 1 0 10.8"/></symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M20.5 3.5L10 14M20.5 3.5l-6.5 17-4-6.5-6.5-4z"/></symbol>
+    <symbol id="i-retry" viewBox="0 0 24 24"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3M4.5 4.5v4h4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8.5" r="3.5"/><path d="M5 20c.8-3.6 3.6-5.5 7-5.5s6.2 1.9 7 5.5"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M4 20V8.5l7-3.5v15M11 20v-9l9 2.5V20M3 20h18M14.5 16h2.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 20.5s-6.5-5.8-6.5-10.7a6.5 6.5 0 0 1 13 0c0 4.9-6.5 10.7-6.5 10.7z"/><circle cx="12" cy="9.8" r="2.3"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5M12 14.5v2.5"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h8.5M17.5 12v3M20.5 12v2"/></symbol>
+    <symbol id="i-light" viewBox="0 0 24 24"><path d="M9 3.5h6l-1 6H10z"/><path d="M10 9.5v6.5a2 2 0 0 0 4 0V9.5M4 13l2.5-1M20 13l-2.5-1M12 19.5v1.5"/></symbol>
+    <symbol id="i-say" viewBox="0 0 24 24"><path d="M4.5 6.5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H11l-4.5 3.5v-3.5h0a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.8l2.5 5.2 5.6.7-4.1 3.9 1 5.6L12 16.5l-5 2.7 1-5.6-4.1-3.9 5.6-.7z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6.5h11M9 12h11M9 17.5h11"/><circle cx="4.8" cy="6.5" r="1"/><circle cx="4.8" cy="12" r="1"/><circle cx="4.8" cy="17.5" r="1"/></symbol>
+    <symbol id="i-teacher" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="11" rx="1.5"/><path d="M8 20l4-4.5 4 4.5"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3.5v2.3M12 18.2v2.3M3.5 12h2.3M18.2 12h2.3M6 6l1.6 1.6M16.4 16.4L18 18M6 18l1.6-1.6M16.4 7.6L18 6"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M4 7.5l8-4 8 4v9l-8 4-8-4z"/><path d="M4 7.5l8 4 8-4M12 11.5v9"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M4.5 16.5v-4l2-5h11l2 5v4z"/><path d="M4.5 12.5h15"/><circle cx="8" cy="16.5" r="1.8"/><circle cx="16" cy="16.5" r="1.8"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 12.5V6.8a1.6 1.6 0 0 1 3.2 0v4.7M11.2 10.5a1.6 1.6 0 0 1 3.2 0v1.2M14.4 11a1.6 1.6 0 0 1 3.1.4v3.1c0 3.3-2.4 5.5-5.4 5.5-2.4 0-3.7-1.1-5-3l-1.7-2.6a1.5 1.5 0 0 1 2.4-1.8L8 13.2"/></symbol>
+  </defs>
+</svg>
+
+<div id="app" data-scr="title">
+
+  <!-- 起動時のロゴ -->
+  <div id="splash" aria-hidden="true"><img src="img/logo_start.svg" alt="Start!"><small>高校生のための就職応援</small><i></i></div>
+
+  <!-- タイトル＋見学者証 -->
+  <section class="scr on" id="title">
+    <div class="t-top">
+      <div class="brand"><img src="img/logo_start.svg" alt="Start!"><span class="tag">潜入</span></div>
+      <div class="t-issue"><b class="mono">SAMPLE</b><small>架空の会社です</small></div>
+    </div>
+    <div class="tape" aria-hidden="true"></div>
+    <div class="t-main">
+      <p class="mono t-target">TARGET — <span id="tTarget"></span></p>
+      <h1>この工場の<br><mark>「リアル」</mark>に、<br>潜入せよ。</h1>
+      <div class="t-photo" id="tPhoto"><div class="kv"></div><div class="beam"></div><span class="mono t-rec"><i></i>REC</span></div>
+      <div class="pass-slot" id="passSlot"></div>
+    </div>
+    <div class="t-foot">
+      <p class="t-lead" id="tLead">先輩の職場を、ゲームで先に歩いてみよう。</p>
+      <button class="t-list" id="tList" hidden></button>
+      <button class="btn ink t-start" id="btnStart"><span id="tStartLabel">見学者証を受け取る</span><svg class="ic"><use href="#i-arrow-r"/></svg></button>
+      <div class="t-meta">
+        <span><svg class="ic"><use href="#i-clock"/></svg>約4分</span>
+        <span><svg class="ic"><use href="#i-vol"/></svg>音が出ます</span>
+        <span><svg class="ic"><use href="#i-user"/></svg>登録なし・名前なし</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- チャット（LINE風） -->
+  <section class="scr" id="chat">
+    <header class="c-bar">
+      <div class="c-av" id="cIcons"></div>
+      <div class="c-ttl"><b id="cName"></b><small id="cSub"></small></div>
+    </header>
+    <div class="c-log" id="cLog"></div>
+    <div class="c-tray" id="cTray"></div>
+  </section>
+
+  <!-- 職場マップ -->
+  <section class="scr" id="map">
+    <div class="m-head"><span class="mono lab" id="mLab">FLOOR MAP</span><h2 id="mTitle">どこに潜入する？</h2><p id="mSub"></p></div>
+    <div class="m-stage" id="mStage"><div class="m-map" id="mMap"><img id="mImg" alt="工場の見取り図" draggable="false"><div class="m-pins" id="mPins"></div><i class="m-me" id="mMe"></i></div></div>
+    <div class="m-foot">
+      <div class="board" id="board"></div>
+      <button class="btn joy m-go" id="mGo" hidden><span>潜入メモを解く</span><svg class="ic"><use href="#i-arrow-r"/></svg></button>
+    </div>
+  </section>
+
+  <!-- ライトで探す -->
+  <section class="scr dark" id="light">
+    <div class="l-head">
+      <div class="mono lab" id="lLab"></div>
+      <h2><svg class="ic"><use href="#i-light"/></svg><span>ライトで照らして、<em>ことば</em>を探せ</span></h2>
+      <div class="l-timer"><i id="lBar"></i></div>
+    </div>
+    <div class="l-stage" id="lStage">
+      <img id="lImg" alt="" draggable="false">
+      <div class="l-marks" id="lMarks"></div>
+      <canvas id="lCv"></canvas>
+      <div class="l-hint" id="lHint"><svg class="ic"><use href="#i-hand"/></svg><span>指でなぞって照らす</span></div>
+    </div>
+    <div class="l-foot">
+      <div class="l-found" id="lFound"></div>
+      <div class="l-say" id="lSay"></div>
+    </div>
+  </section>
+
+  <!-- 作業ミニゲーム（work.js が中身を作る） -->
+  <section class="scr" id="work"></section>
+
+  <!-- こんなとき、どうする？ -->
+  <section class="scr" id="quiz">
+    <div class="q-photo" id="qPhoto"><span class="mono lab" id="qLab"></span></div>
+    <div class="q-body" id="qBody"></div>
+  </section>
+
+  <!-- 先輩の一日 -->
+  <section class="scr" id="day">
+    <div class="sc-head"><span class="mono lab" id="dLab"></span><h2>先輩の一日を、<br>時間の順にならべよう</h2><p class="d-how"><b>下の写真</b>をタップすると、<b>光っているわく</b>に入るよ</p></div>
+    <div class="d-cap mono">TIMELINE — 先輩の一日</div>
+    <div class="d-line" id="dLine"></div>
+    <div class="d-cap mono">PHOTOS — 写真をタップ</div>
+    <div class="d-pool" id="dPool"></div>
+    <div class="d-say" id="dSay"></div>
+  </section>
+
+  <!-- 潜入メモ -->
+  <section class="scr" id="memo">
+    <div class="sc-head"><span class="mono lab">FINAL — SECRET MEMO</span><h2>潜入メモを完成させよう</h2><p>空らんに合うカードをタップ</p></div>
+    <div class="memo-paper" id="memoPaper"></div>
+    <div class="memo-hand" id="memoHand"></div>
+  </section>
+
+  <!-- 潜入成功 -->
+  <section class="scr" id="success">
+    <div class="tape top" aria-hidden="true"></div>
+    <div class="s-in" id="sIn"></div>
+    <div class="tape bot" aria-hidden="true"></div>
+  </section>
+
+  <!-- 7枚目のカード -->
+  <section class="scr" id="key">
+    <div class="k-in" id="kIn"></div>
+  </section>
+
+  <!-- 次の職場へ -->
+  <section class="scr" id="next">
+    <div class="sc-head"><span class="mono lab">NEXT MISSION</span><h2>次は、ここに<br>潜入してみる？</h2><p>Start! にのっている、近い会社（準備中）</p></div>
+    <div class="nx-list" id="nxList"></div>
+    <div class="nx-foot"><button class="btn ink" id="nxGo"><svg class="ic"><use href="#i-list"/></svg><span>気になる会社リストへ</span></button></div>
+  </section>
+
+  <!-- 気になる会社リスト -->
+  <section class="scr" id="list">
+    <div class="sc-head"><span class="mono lab">MY LIST</span><h2>気になる会社リスト</h2><p>潜入した会社が、自動でたまります（このスマホの中だけに保存）</p></div>
+    <div class="ls-body" id="lsBody"></div>
+  </section>
+
+  <!-- 先生に見せる画面 -->
+  <section class="scr" id="teacher">
+    <div class="tc-in" id="tcIn"></div>
+  </section>
+
+  <!-- 上のバー：時計・カード数 -->
+  <div class="hud" id="hud">
+    <div class="h-brand"><img src="img/logo_start.svg" alt="Start!"><span class="tag">潜入</span></div>
+    <div class="h-clock" id="hClock"><small class="mono">TIME</small><b class="mono" id="hTime">8:30</b><i class="h-prog"><i id="hProg"></i></i></div>
+    <div class="h-cards" id="hCards"><small class="mono">CARDS</small><b class="mono"><span id="hCnt">0</span>/6</b></div>
+  </div>
+  <button class="mute" id="mute" aria-label="音のオン・オフ"><svg class="ic"><use href="#i-vol"/></svg></button>
+  <!-- 知らせ（ダイナミックアイランド風） -->
+  <div id="island" aria-live="polite"><div class="isl-in" id="islIn"></div></div>
+  <!-- カード獲得 -->
+  <div id="get" aria-live="polite"></div>
+  <!-- ミッションの見出し -->
+  <div id="banner" aria-hidden="true"></div>
+</div>
+
+<script src="js/company.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
